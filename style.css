@@ -42,6 +42,12 @@ body {
 
 /* Styles for small screens */
 
+@media (max-width: 600px) {
+    .my-element {
+        width: 100%;
+    }
+}
+
 @media (max-width: 767px) {
     /* Adjust layout and font sizes here */
 }

@@ -7,6 +7,12 @@ const map = document.getElementById("map");
 
 const apiKey = "b1fcdd11dabd1065e7fa2353536ee9ed";
 
+window.onload = function() {
+    var width = window.innerWidth;
+
+    document.querySelector(".my-element").style.width = width + "px";
+};
+
 searchButton.addEventListener('click', () => {
     search();
 });
