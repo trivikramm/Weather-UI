@@ -44,7 +44,7 @@ function search() {
 
             const lat = data.coord.lat;
             const lon = data.coord.lon;
-            const mapUrl = `https://www.google.com/maps/embed/v1/view?key=AIzaSyCSmjuw4jVy3_D_IRBb4ulS4IXdp4PY_B8&center=${lat},${lon}&zoom=12`;
+            const mapUrl = `https://www.google.com/maps/embed/v1/view?key=AIzaSyDGu7JbuS7I91ln8vYzNsvq3oh4Yx76mXE&center=${lat},${lon}&zoom=12`;
             map.innerHTML = `<iframe src="${mapUrl}" width="600" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>`;
             const mapOptions = {
                 zoom: 12,
